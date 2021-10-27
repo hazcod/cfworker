@@ -6,8 +6,7 @@ interface JsonWebKey {
   x5c?: string[];
   kid?: string;
   x5t?: string;
+  n?: string;
 }
 
-interface Crypto {
-  randomUUID(): string;
-}
+type BodyInit = BodyInitializer;
